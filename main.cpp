@@ -1,12 +1,13 @@
 // Lab 2: Investigation of std::all_of (Variant 1)
 // Tkachenko Anastasiia, Group K-25
-// Compiler: MSVC (Visual Studio 2022, v17.x), C++20.
+// Compiler: MSVC (Visual Studio 2022, v17.x), C++20
 // Build (Developer Command Prompt for VS 2022):
 //   No optimization:      cl /std:c++20 /EHsc /MD /Od main.cpp /Fe:lab_O0.exe
 //   Maximum optimization: cl /std:c++20 /EHsc /MD /O2 main.cpp /Fe:lab_O2.exe
 // Run:
 //   lab_O0.exe > out_O0.txt
 //   lab_O2.exe > out_O2.txt
+// Data files data_N.txt: N random integers [1..1000] separated by spaces; created on first run
 
 #include <algorithm>
 #include <chrono>
