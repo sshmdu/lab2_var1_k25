@@ -1,5 +1,5 @@
 // Lab 2: Investigation of std::all_of (Variant 1)
-// Tkachenko Anastasiia, Group K-15
+// Tkachenko Anastasiia, Group K-25
 // Compiler: MSVC (Visual Studio 2022, v17.x), C++20.
 // Build (Developer Command Prompt for VS 2022):
 //   No optimization:      cl /std:c++20 /EHsc /MD /Od main.cpp /Fe:lab_O0.exe
